@@ -1,6 +1,8 @@
-package models;
+package dto;
 
-public class Player {
+import dto.DTO;
+
+public class Player implements DTO {
     private int id;
     private String firstName;
     private String lastName;
